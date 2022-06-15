@@ -21,7 +21,7 @@ const createServer = async () => {
 	// dotenv.config();
 	// const config = {
 	// 	port: process.env.PORT || 8080,//Elina edit from 3000 to 8080
-	// 	host: process.env.HOST || "localhost"
+	// 	host: process.env.HOST || "0.0.0.0"
 	// };
 	// const server = await createServer( config );
 	// await server.start();
