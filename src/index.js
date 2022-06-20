@@ -11,7 +11,7 @@ const plugins = require( "./plugins" );
 const createServer = async () => {
 	const server =Hapi.server({
 	port: process.env.PORT || 8080,
-	host: process.env.HOST || "localhost"
+	host: process.env.HOST || "0.0.0.0"
  });
  	// server.register(plugins);
  	await plugins.register(server);
